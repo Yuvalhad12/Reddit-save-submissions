@@ -47,7 +47,7 @@ def main(user_to_follow):
         try:
             for submission in r.redditor(user_to_follow).stream.submissions():
                 url = submission.url
-                if url.endswith(EXTENSIONS):
+                if url.endswith(EXTENSIONS) and url not in downloaded_urls:
                     extension = url.split('.')[-1]
                     #Title would consist only valid chars in enlgish and backspaces
                     title = ''.join(e for e in submission.title if e.isalnum() or e == ' ')
