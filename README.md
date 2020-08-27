@@ -7,7 +7,7 @@ Basically, the script is very simple, and all the user has to do is enter the RE
 
 The script is super simple and highly self-explainatory, but if you need any help understanding it, feel free to tell me.
 
-# THE LATEST VERSION IS ALWAYS IN "MAINVERSION"
+* THE LATEST VERSION IS ALWAYS IN "MAINVERSION"
 
 # changelog in V2:
 1. Moved to a more conventional OOP-based coding.
@@ -17,3 +17,9 @@ The script is super simple and highly self-explainatory, but if you need any hel
 5. APPENDING LINKS TO JSON FILE now happens more often and more smart - the script will check if there are changes to the url string before overwriting the json file itself.
 6. Added option to write shortened links to the json file to save space and time
 7. The script itself now runs in threads (Thus, the main thread is not occupied by the package objects.)
+
+
+* TO DO LIST:
+1. Add telegram integration
+2. tidy up the code
+3. add video format support
