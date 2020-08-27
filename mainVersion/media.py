@@ -76,7 +76,7 @@ class Media():
             path = pathlib.Path(username)
             path.mkdir(parents=True, exist_ok=True)
             urllib.request.urlretrieve(submission.url ,path / title)
-            #print('{} | {}'.format(username, title))
+            print('{} | {}'.format(username, title))
 
             while self.user_to_annouce:
                 try:
