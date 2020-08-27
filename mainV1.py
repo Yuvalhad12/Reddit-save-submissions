@@ -1,3 +1,6 @@
+"""This version is old AND WILL NOT BE UPDATED OT SUPPORTED. pleae use newer version"""
+
+
 import praw, urllib.request, time, threading, pickle, pathlib
 
 
