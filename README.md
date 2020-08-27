@@ -23,3 +23,5 @@ The script is super simple and highly self-explainatory, but if you need any hel
 1. Add telegram integration
 2. tidy up the code
 3. add video format support
+4. save users_to_follow to a json file
+5. improve the titling func so it would save pesky weird titles without an issue
