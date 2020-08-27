@@ -17,6 +17,7 @@ The script is super simple and highly self-explainatory, but if you need any hel
 5. APPENDING LINKS TO JSON FILE now happens more often and more smart - the script will check if there are changes to the url string before overwriting the json file itself.
 6. Added option to write shortened links to the json file to save space and time
 7. The script itself now runs in threads (Thus, the main thread is not occupied by the package objects.)
+8. User can now turn off the option to notify a reddit user about a new photo
 
 
 * TO DO LIST:
@@ -25,3 +26,4 @@ The script is super simple and highly self-explainatory, but if you need any hel
 3. add video format support
 4. save users_to_follow to a json file
 5. improve the titling func so it would save pesky weird titles without an issue
+6. start loading the writing_to_json mechanism earlier (not after the for loop of users ends)
